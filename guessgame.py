@@ -16,9 +16,8 @@ while guess_count < max_guesses:
     
     if guess == secret_number:
         print("Congratulations! You've guessed the secret number!")
-        continue 
-    else:
-        print("Wrong guess. Try again.")
+        guess_count += 1
         break
+    
 else:
-    print("Sorry, you've used all your guesses. The secret number was", secret_number)
+    print("Wrong guess. Sorry, you've used all your guesses. The secret number was", secret_number)
