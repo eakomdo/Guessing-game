@@ -20,4 +20,4 @@ while guess_count < max_guesses:
         break
     
 else:
-    print("Wrong guess. Sorry, you've used all your guesses. The secret number was", secret_number)
+    print("Wrong guess! Sorry, you've used all your guesses. The secret number was", secret_number)
